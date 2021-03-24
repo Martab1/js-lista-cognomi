@@ -14,7 +14,7 @@ del nuovo utente inserito sopra all'interno dell'array, dopo l'ordinamento alfab
 
 // 1. chiedi cognome
 var cognome = prompt ("inserisci il tuo cognome");
-console.log(cognome);
+console.log("cognome utente: " + cognome);
 
 // 2. inserimento nell'Array
 var list = ["bianchi", "neri", "rossi", "verdi", "gialli"];
@@ -24,7 +24,7 @@ list.push(cognome);
 console.log(list.sort());
 
 // 4. posizione elementi da 1 
-console.log(list.indexOf(cognome) + 1);
+console.log("il cognome utente ha posizione " + (list.indexOf(cognome) + 1));
 
 
 
