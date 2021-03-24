@@ -12,7 +12,6 @@ del nuovo utente inserito sopra all'interno dell'array, dopo l'ordinamento alfab
 
 */
 
-
 // 1. chiedi cognome
 var cognome = prompt ("inserisci il tuo cognome").toLowerCase().trim();
 console.log("cognome utente: " + cognome);
@@ -28,8 +27,6 @@ console.log(list.sort());
 var position = (list.indexOf(cognome) + 1);
 console.log("il cognome utente ha posizione " + position);
 
-
-
 // 5. stampa tutto in html
 var items = "";
 
@@ -38,5 +35,4 @@ for (var i = 0; i < list.length; i++){
 }
 
 document.getElementById("list").innerHTML = items;
-
 document.getElementById("position").innerHTML = "il cognome utente ha posizione " + position;
