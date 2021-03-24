@@ -1,0 +1,48 @@
+
+/* GENERAL */
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+body{
+    background-color: rgb(204, 238, 219);
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(51, 85, 90);
+}
+
+
+/* HEADER */
+
+h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+
+/* MAIN */
+
+
+li{
+    padding:20px;
+    background:rgb(242, 245, 244);
+    max-width: 500px;
+    margin:25px auto;
+    list-style: none;
+    box-shadow: 0 10px 10px -10px;
+    text-transform: uppercase;
+    
+
+}
+
+p{
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
